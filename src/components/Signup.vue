@@ -11,7 +11,8 @@
 </template>
 
 <script>
-export default {
+  import firebase from 'firebase'
+  export default {
   name: 'Signup',
   data () {
     return {
