@@ -13,3 +13,16 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+import firebase from 'firebase'
+
+Vue.config.productionTip = false
+
+<script>
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyCSQtWzLbWG5DwV7W50Xjf9m1g1FwyAjvg",
+  authDomain: "golang-app-183309.firebaseapp.com",
+};
+  firebase.initializeApp(config);
+</script>
